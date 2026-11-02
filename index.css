@@ -1,0 +1,236 @@
+/* =========================
+   GENERAL SETTINGS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf0f6;
+    color: #333;
+    line-height: 1.8;
+    padding: 30px 15px;
+}
+
+/* =========================
+   RESUME CONTAINER
+========================= */
+
+.resume {
+    max-width: 850px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 45px;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.10);
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.header h3 {
+    color: #a9c7e8;
+    letter-spacing: 4px;
+    margin: 5px 0;
+}
+
+.header p {
+    color: #dce8f5;
+    font-size: 14px;
+}
+
+/* =========================
+   SECTION
+========================= */
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #243b55;
+    border-bottom: 2px solid #243b55;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact {
+    padding-left: 10px;
+}
+
+.contact strong {
+    color: #243b55;
+}
+
+/* =========================
+   EDUCATION
+========================= */
+
+.education-item {
+    background-color: #f3f6fa;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #456b91;
+    border-radius: 6px;
+}
+
+.education-item h3 {
+    color: #243b55;
+    font-size: 17px;
+}
+
+.education-item span {
+    color: #71849a;
+    font-size: 14px;
+}
+
+/* =========================
+   SKILLS
+========================= */
+
+.skill {
+    margin-bottom: 18px;
+}
+
+.skill-name {
+    display: flex;
+    justify-content: space-between;
+    color: #243b55;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e2eaf2;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #456b91;
+    border-radius: 20px;
+}
+
+.html {
+    width: 85%;
+}
+
+.css {
+    width: 75%;
+}
+
+.office {
+    width: 90%;
+}
+
+/* =========================
+   ABILITIES
+========================= */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* =========================
+   HOBBIES
+========================= */
+
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hobbies span {
+    background-color: #eaf0f6;
+    color: #243b55;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    border-top: 1px solid #dce3eb;
+    padding-top: 20px;
+    margin-top: 30px;
+    color: #71849a;
+    font-size: 13px;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .resume {
+        padding: 20px;
+    }
+
+    .header {
+        padding: 25px 15px;
+    }
+
+    .header h1 {
+        font-size: 23px;
+    }
+
+    .profile img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .section h2 {
+        font-size: 18px;
+    }
+
+}
